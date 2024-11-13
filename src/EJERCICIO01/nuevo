@@ -1,0 +1,24 @@
+package EJERCICIO01;
+
+import java.util.Scanner;
+
+public class ejemplo02 {
+
+	public static void main(String[] args) {
+		  Scanner scanner = new Scanner(System.in);
+
+		  System.out.print("¿Cuántos hermanos tienes? ");
+	  
+	        int cantidadHermanos = scanner.nextInt();
+	        
+	      
+	        System.out.println("Tienes " + cantidadHermanos + " hermano(s).");
+	        
+	        System.out.print("¿cual es tu nota final? ");
+	        int Notafinal= scanner.nextInt();
+	        
+	        System.out.println("Tienes " + Notafinal +" de nota final");
+	        
+	        System.out.println("¿En que provincia vives?");
+	        int provincia=scanner.nextInt();
+	        System.out.println("Vives en" +provincia + "Extremadura" );
