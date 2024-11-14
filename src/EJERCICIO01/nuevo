@@ -13,12 +13,4 @@ public class ejemplo02 {
 	        
 	      
 	        System.out.println("Tienes " + cantidadHermanos + " hermano(s).");
-	        
-	        System.out.print("¿cual es tu nota final? ");
-	        int Notafinal= scanner.nextInt();
-	        
-	        System.out.println("Tienes " + Notafinal +" de nota final");
-	        
-	        System.out.println("¿En que provincia vives?");
-	        int provincia=scanner.nextInt();
-	        System.out.println("Vives en" +provincia + "Extremadura" );
+
