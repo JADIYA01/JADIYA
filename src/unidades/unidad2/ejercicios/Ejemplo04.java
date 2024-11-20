@@ -2,7 +2,7 @@ package unidades.unidad2.ejercicios;
 
 import java.util.Scanner;
 
-public class Ejemplo02 {
+public class Ejemplo04 {
 
 	public static void main(String[] args) {
 		  Scanner scanner = new Scanner(System.in);
@@ -34,15 +34,24 @@ public class Ejemplo02 {
 	        
 	        System.out.println("¿Con cuantos puntos gana un jugador de baloncesto  ? ");
 	        int numPuntos = scanner.nextInt();
-	        System.out.println("Un jugador gana " + numPuntos + " en baloncesto ");
+	        System.out.println("Un jugador gana " + numPuntos + " puntos en baloncesto ");
 	        
 	        System.out.println("¿Cuanto vale este artículo ? ");
 	        double precio$  = scanner.nextDouble();
 	        System.out.println("este artículo vale " + precio$ +"€");
 	        
-	        System.out.println("¿en qué año subió el hombre a la luna  ? ");
+	        System.out.println("¿en qué año subió el hombre a la luna ? ");
 	        int año = scanner.nextInt();
 	        System.out.println("el hombre subió a la luna en " + año );
+	        
+	        
+	        System.out.println("¿cuantas patas tiene un gato ? ");
+	        int cantidadPatas = scanner.nextInt();
+	        System.out.println("el gato tiene " + cantidadPatas + " patas");
+	        
+	        System.out.println("¿Cuanto vale este coche ? ");
+	        double precio  = scanner.nextDouble();
+	        System.out.println("este coche cuesta " + precio + "€");
 	        
 	        
 	        
