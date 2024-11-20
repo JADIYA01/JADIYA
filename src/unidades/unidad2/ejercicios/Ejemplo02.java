@@ -14,7 +14,7 @@ public class Ejemplo02 {
 	      
 	        System.out.println("Tienes " + cantidadHermanos + " hermano(s).");
 	        
-	        System.out.println("¿cual es tu nota final? ");
+	        System.out.println("¿cual es tu nota final del módulo? ");
 	        int Notafinal= scanner.nextInt();
 	        
 	        System.out.println("Tienes " + Notafinal +" de nota final");
