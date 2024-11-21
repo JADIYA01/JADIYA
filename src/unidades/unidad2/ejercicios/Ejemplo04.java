@@ -7,20 +7,15 @@ public class Ejemplo04 {
 	public static void main(String[] args) {
 		  Scanner scanner = new Scanner(System.in);
 
-		  System.out.print("¿Cuántos hermanos tienes? ");
-	  
+		  	System.out.print("¿Cuántos hermanos tienes?");
 	        int cantidadHermanos = scanner.nextInt();
-	        
-	      
 	        System.out.println("Tienes " + cantidadHermanos + " hermano(s).");
 	        
 	        System.out.println("¿cual es tu nota final del módulo? ");
 	        int Notafinal= scanner.nextInt();
-	        
 	        System.out.println("Tienes " + Notafinal +" de nota final");
 	        
 	        System.out.println ("¿En que provincia vives?");
-	
 	        String provincia= scanner.next();
 	        System.out.println("Vivo en " + provincia );
 	
@@ -44,7 +39,6 @@ public class Ejemplo04 {
 	        int año = scanner.nextInt();
 	        System.out.println("el hombre subió a la luna en " + año );
 	        
-	        
 	        System.out.println("¿cuantas patas tiene un gato ? ");
 	        int cantidadPatas = scanner.nextInt();
 	        System.out.println("el gato tiene " + cantidadPatas + " patas");
@@ -53,10 +47,6 @@ public class Ejemplo04 {
 	        double precio  = scanner.nextDouble();
 	        System.out.println("este coche cuesta " + precio + "€");
 	        
-	        
-	        
-	        
-	  
 	        
 	        scanner.close();
 
